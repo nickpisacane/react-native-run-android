@@ -1,0 +1,32 @@
+{
+  "name": "react-native-run-android",
+  "version": "0.0.1",
+  "description": "Simplified android emulation for react-native apps.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6.10.1"
+  },
+  "bin": {
+    "react-native-run-android": "cli.js"
+  },
+  "keywords": [
+    "react-native",
+    "react native",
+    "android"
+  ],
+  "author": "Nicholas Pisacane <pisacanen@gmail.com>",
+  "homepage": "https://github.com/nickpisacane/react-native-run-android",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickpisacane/react-native-run-android"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "inquirer": "^3.0.6",
+    "shelljs": "^0.7.7"
+  }
+}
